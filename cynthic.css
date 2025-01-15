@@ -4,6 +4,7 @@
     font-family: "general sans";
     color: white;
     scroll-behavior: smooth;
+    
 }
 
 html,
@@ -136,8 +137,11 @@ body::-webkit-scrollbar-thumb {
     font-size: .9vw;
 
 }
-
+.chotte-heading{
+     margin-top: 200px;
+}
 .chotte-heading h5 {
+   /* margin-top: 200px; */
     font-size: .9vw;
     text-transform: uppercase;
     width: 100vw;
@@ -145,13 +149,16 @@ body::-webkit-scrollbar-thumb {
     justify-content: end;
 
 }
-
+.boundring {
+    
+}
 .hero-fotter {
+    /* margin-top: 200px; */
     width: 100%;
     color: white;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .hero-fotter a {
@@ -307,6 +314,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-between;
     padding: 0vw 2vw;
     margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 .left-footer {
